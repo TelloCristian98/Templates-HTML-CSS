@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.parent{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8% 30%;
+    height: 500px;
+    
+}
+.one{    
+    display: flex;
+    background-color: gray;
+    width: 100vw;
+    height: 60vh; 
+    border-radius: 4rem;  
+    border-color: blue; 
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 20% 10%;
+    position: relative;
+}
+.two{
+    background-color: red;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    top: 130px;
+    border-radius: 4rem;  
+    border-color: blue; 
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+}

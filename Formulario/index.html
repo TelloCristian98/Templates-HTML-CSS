@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">
+            <span>¿Cuál es tu nombre?</span>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+        </label>
+        <label for="correo">
+            <span>¿Cuál es tu correo?</span>
+            <input type="email" name="correo" id="correo" autocomplete="email" required>
+        </label>        
+        <label for="pais">
+            <span>¿En qué pais vives?</span>
+            <input type="text" id="pais" name="pais" autocomplete="country-name" required>
+        </label><label for="cp">
+            <span>¿Cuál es tu código postal?</span>
+            <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
+        </label>
+    </form>
+</body>
+</html>
